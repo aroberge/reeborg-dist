@@ -4,12 +4,10 @@ import zipfile
 
 skip_dirs = ['node_modules', 'doc_js', 'dev_tools', 'old_docs', 
              'qunit_test', 'test', 'utils', '.git']
-skip_files = ['game.html', 'graph.png', 'jsdoc_conf.json', 
-              'known_problems.md', 'LICENSE.md', 'make.bat',
-              'make_offline.py', 'monde.html', 'package.json',
-              'README.md', 'reeborg_qunit_test.html',
+skip_files = ['known_problems.md', 'LICENSE.md', 'make.bat',
+              'package.json', 'README.md', 'reeborg_qunit_test.html',
               'repaired_robot.py', 'run_qunit_test.py',
-              'serve_reeborg.py', 'world.html', 'world_ko.html']
+              'serve_reeborg.py']
 
 def zipdir(new_dir, path, ziph=None):
     # ziph is zipfile handle
