@@ -2,8 +2,9 @@
 import os
 import zipfile
 
-skip_dirs = ['node_modules', 'doc_js', 'dev_tools', 'old_docs', 
-             'qunit_test', 'test', 'utils', '.git']
+skip_dirs = ['node_modules', 'advanced_world_creation', 'dev_tools', 
+             'old_docs', 'extra_docs', 
+             'qunit_tests', 'tests', 'utils', '.git']
 skip_files = ['known_problems.md', 'LICENSE.md', 'make.bat',
               'package.json', 'README.md', 'reeborg_qunit_test.html',
               'repaired_robot.py', 'run_qunit_test.py',
