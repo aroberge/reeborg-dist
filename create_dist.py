@@ -2,13 +2,12 @@
 import os
 import zipfile
 
-skip_dirs = ['node_modules', 'advanced_world_creation', 'dev_tools', 
-             'old_docs', 'extra_docs', 
-             'qunit_tests', 'tests', 'utils', '.git']
-skip_files = ['known_problems.md', 'LICENSE.md', 'make.bat',
-              'package.json', 'README.md', 'reeborg_qunit_test.html',
-              'repaired_robot.py', 'run_qunit_test.py',
-              'serve_reeborg.py']
+skip_dirs = ['node_modules', 'api_docs', 'dev_tools', 'old_examples',
+             'jsdoc', 'automated_tests', 'tests', 'utils', '.git',
+             '.vscode']
+skip_files = ['known_problems.md', 'make.bat', '404.html',
+              'package.json', 'README.md', 'tasklist.todo', 'index_en.html',
+              'index_fr.html', 'serve_reeborg.py', 'unit_test.bat']
 
 def zipdir(new_dir, path, ziph=None):
     # ziph is zipfile handle
