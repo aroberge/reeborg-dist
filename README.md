@@ -1,4 +1,4 @@
-_La version français est ci-dessous._
+_La version française est ci-dessous._
 
 # Reeborg's World distribution
 
