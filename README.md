@@ -81,7 +81,7 @@ devoir changer la configuration pour empêcher ceci. Par exemple, sur le
 serveur commercial où le site reeborg.ca se trouve, mon fichier 
 `.htaccess` inclut ceci:
 
-`</FilesMatch>
+`
 RemoveHandler .py
 `
 
