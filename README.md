@@ -27,7 +27,7 @@ If you run a server that is set up to interpret Python scripts, you may need
 to disable this functionality. On the commercial server where the public site is running,
 my `.htaccess` file contains the following:
 
-`</FilesMatch>
+`
 RemoveHandler .py
 `
 
